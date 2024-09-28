@@ -12,3 +12,13 @@ console.log (GenzNumber);
 
 const number = actor.PhoneNumber;
 console.log (number);
+
+
+
+// ----Array Destructuring----//
+function getDouble (a,b) {
+    return [a*2, b*2];
+}
+
+const [prothom, ditio] = getDouble(5, 30)
+console.log(prothom,ditio);
